@@ -1,0 +1,62 @@
+/* Estilos gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* cabeçalho */
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+/* produtos */
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.product p {
+    line-height: 1.6;
+}
+
+.local {
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.local img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
