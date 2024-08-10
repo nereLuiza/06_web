@@ -22,6 +22,14 @@ header {
     text-align: center;
 }
 
+/*menu*/
+.menu {
+    background-color: #f2f2f2;
+    margin: 15px;
+}
+.menu h1, .menu a, .menu h3 {
+    color: black;
+}
 /* produtos */
 
 .product {
@@ -45,9 +53,12 @@ header {
 
 .product p {
     line-height: 1.6;
+    color: black;
 }
 
-.local {
+/*informações*/
+
+.info {
     background-color: black;
     padding: 20px;
     margin-bottom: 20px;
@@ -55,58 +66,7 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.local img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.menu {
-    background-color: #f2f2f2;
-    margin: 15px;
-}
-
-.menu h1, .menu a, .menu h3 {
-    color: black;
-}
-
-/* Rodapé */
-
-footer {
-    background-color: #000000;
-    color: #fff;
-    padding: 5px 0;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0;
-    position: relative;
-}
-
-footer .container {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-footer h3, footer h2, footer ul, footer a {
-    font-size: small;
-    color: #fff;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
-}
-
-footer ul li {
-    margin: 5px 0;
-}
-
-footer a {
-    text-decoration: underline;
-}
-
-footer a:hover {
-    text-decoration: underline;
+.info h2, h3, ul, p , a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
